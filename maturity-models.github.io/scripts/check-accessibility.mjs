@@ -45,8 +45,7 @@ async function audit(page, label, options = AXE) {
 
 const PAGES = [
 	'/',
-	'/en-us/',
-	'/cy-gb/',
+	...Object.keys(JSON.parse(readFileSync(path.join(siteRoot, 'src/lib/locale-pages.json'), 'utf8'))).map((slug) => `/${slug}/`),
 	'/en-us/examples/agile/agile-fluency/',
 	'/en-us/examples/team/team-performance-maturity-model/',
 	'/cy-gb/examples/ystwyth/model-aeddfedrwydd-tim-ystwyth-gan-prowareness/',

@@ -21,6 +21,14 @@ export const HERO = {
 	'en-us': {
 		tagline: 'Maturity models to assess people, processes, and technology, with real-world examples.',
 		translations: 'Translations: '
+	},
+	'zh-001': {
+		tagline: '用于评估人员、流程和技术的成熟度模型，附有真实案例。',
+		translations: '翻译：'
+	},
+	'zh-cn': {
+		tagline: '用于评估人员、流程和技术的成熟度模型，附有真实案例。',
+		translations: '翻译：'
 	}
 };
 
@@ -30,7 +38,9 @@ export const ENDONYMS = {
 	'cy-gb': 'Cymraeg',
 	'en-001': 'English',
 	'en-gb': 'English',
-	'en-us': 'English'
+	'en-us': 'English',
+	'zh-001': '中文',
+	'zh-cn': '中文'
 };
 
 /** Heading id of each locale's examples section on its landing page (the header's "Examples" link). */
@@ -40,5 +50,7 @@ export const EXAMPLES_ANCHOR = {
 	'cy-gb': 'enghreifftiau-o-fodelau-aeddfedrwydd',
 	'en-001': 'maturity-model-examples',
 	'en-gb': 'maturity-model-examples',
-	'en-us': 'maturity-model-examples'
+	'en-us': 'maturity-model-examples',
+	'zh-001': '成熟度模型示例',
+	'zh-cn': '成熟度模型示例'
 };
