@@ -35,15 +35,20 @@ This is a monorepo.
 - `en-us` is the source locale. Its landing page is the repository `README.md`.
   Other locales supply their own `locales/<code>/index.md` as landing page.
 - A locale directory with neither a landing page nor any `examples/**/index.md`
-  is not a site locale (for example `cy-gb` currently holds only translated
-  notes).
+  is not a site locale.
+- A locale need not translate the examples. A link in its landing page to an
+  example it lacks resolves to the `en-us` page.
 - A locale's pages are tracked by `.locale-peer-id`, a 32-character lowercase
   hexadecimal id plus newline, identical across locales for the same topic.
   `README.md` beside an `index.md` is a symlink to it.
 - Adding a locale to the site: add `ll_RR` to `LOCALES` in
   `maturity-models.github.io/src/lib/locales.js`, add its entries to
-  `src/lib/data/hero.js`, create `locales/<code>/`, run `pnpm run content`.
-- Currently supported locale: `en-us`.
+  `src/lib/data/hero.js` (`HERO`, `ENDONYMS`, `EXAMPLES_ANCHOR`: the heading id of
+  its examples section), create `locales/<code>/`, run `pnpm run content`.
+- Supported locales: `en-us` (source), `cy-gb` (Welsh landing page; examples link to
+  `en-us`).
+- `locales/cy-gb/locales-for-global-sharing-with-svelte/` is a translated note, not
+  site content.
 
 ## Website
 

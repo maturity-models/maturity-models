@@ -46,6 +46,7 @@ async function audit(page, label, options = AXE) {
 const PAGES = [
 	'/',
 	'/en-us/',
+	'/cy-gb/',
 	'/en-us/examples/agile/agile-fluency/',
 	'/en-us/examples/team/team-performance-maturity-model/',
 	'/en-us/?agile'

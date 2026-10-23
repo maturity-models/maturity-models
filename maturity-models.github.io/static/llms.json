@@ -5,7 +5,7 @@
   "repository": "https://github.com/maturity-models/maturity-models",
   "counts": {
     "examples": 42,
-    "locales": 1
+    "locales": 2
   },
   "examples": [
     {
@@ -220,6 +220,7 @@
     }
   ],
   "locales": [
+    "cy_GB",
     "en_US"
   ]
 }

@@ -1,4 +1,5 @@
 <script>
+	import { EXAMPLES_ANCHOR } from '#lib/data/hero.js';
 	import { slugToTag, isRtlSlug } from '#lib/locales.js';
 
 	let { data } = $props();
@@ -8,7 +9,7 @@
 	<title>{data.title}</title>
 </svelte:head>
 
-<a class="back-link" href="/{data.locale}/#maturity-model-examples">&larr; Maturity Models</a>
+<a class="back-link" href="/{data.locale}/#{EXAMPLES_ANCHOR[data.locale]}">&larr; Maturity Models</a>
 
 <div class="prose" lang={slugToTag(data.locale)} dir={isRtlSlug(data.locale) ? 'rtl' : 'ltr'}>
 	{@html data.html}

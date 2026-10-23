@@ -11,6 +11,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import { LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE, DEFAULT_SLUG, localeToSlug } from '#lib/locales.js';
+	import { EXAMPLES_ANCHOR } from '#lib/data/hero.js';
 	import { pathForLocale } from '#lib/locale-nav.js';
 
 	const THEME_STORAGE_KEY = 'mm-theme';
@@ -140,7 +141,7 @@
 		const home = `/${localeToSlug(urlLocale)}/`;
 		return [
 			{ label: 'Home', href: home, current: currentPath === home },
-			{ label: 'Examples', href: `${home}#maturity-model-examples` },
+			{ label: 'Examples', href: `${home}#${EXAMPLES_ANCHOR[localeToSlug(urlLocale)]}` },
 			{ label: 'GitHub', href: REPOSITORY, newTab: true }
 		];
 	});
@@ -159,8 +160,8 @@
 				<strong>Maturity Models</strong>
 			</a>
 			<nav class="site-nav" aria-label="Primary">
-				<a href="/{DEFAULT_SLUG}/">Home</a>
-				<a href="/{DEFAULT_SLUG}/#maturity-model-examples">Examples</a>
+				<a href="/{localeToSlug(urlLocale)}/">Home</a>
+				<a href="/{localeToSlug(urlLocale)}/#{EXAMPLES_ANCHOR[localeToSlug(urlLocale)]}">Examples</a>
 				<a href="https://github.com/maturity-models/maturity-models">GitHub</a>
 			</nav>
 			<div class="site-header-controls">

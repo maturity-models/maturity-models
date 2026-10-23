@@ -2,7 +2,7 @@
 // source directory under ../locales/ is the lowercase form with "_" replaced by
 // "-" ("en_US" -> "en-us"). To add a locale: add its value here, add
 // ../locales/<slug>/, and run `pnpm run content`. See spec/index.md.
-export const LOCALES = ['en_US'];
+export const LOCALES = ['cy_GB', 'en_US'];
 
 export const DEFAULT_LOCALE = 'en_US';
 

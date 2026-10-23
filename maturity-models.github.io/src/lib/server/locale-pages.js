@@ -8,6 +8,8 @@ import localePages from '#lib/locale-pages.json';
 /** @type {Record<string, Page[]>} */
 const tree = localePages;
 
+const SOURCE_LOCALE = 'en-us';
+
 const files = import.meta.glob('/src/content/locales/**/*.md', { query: '?raw', import: 'default' });
 
 /** Heading slug: letters, marks, numbers, "-" and "_" kept; spaces become "-". @param {string} text */
@@ -62,7 +64,10 @@ function resolveLink(slug, base, href) {
 		const matches = pages.filter((p) => p.path.split('/').pop() === name);
 		if (matches.length === 1) found = matches[0].path;
 	}
-	return found ? `/${slug}/${found}/${fragment && '#' + fragment}` : null;
+	if (found) return `/${slug}/${found}/${fragment && '#' + fragment}`;
+	// A locale without its own copy of an example links to the source-locale page.
+	const source = tree[SOURCE_LOCALE]?.find((p) => p.path === rel)?.path;
+	return slug !== SOURCE_LOCALE && source ? `/${SOURCE_LOCALE}/${source}/${fragment && '#' + fragment}` : null;
 }
 
 /**
