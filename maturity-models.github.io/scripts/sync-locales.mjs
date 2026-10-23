@@ -3,15 +3,28 @@
 // the landing page: the locale's index.md, or ../README.md for en-us) into
 // src/content/locales/<slug>/, and writes src/lib/locale-pages.json, the
 // per-locale page list that drives the /<locale>/ and /<locale>/examples/** routes.
+// Also writes ../locales/<slug>/sitemap.xml: the locale's own routes (its landing
+// page and every example), so each locale directory documents what it serves.
 // Reads the parent monorepo, so it runs with `pnpm run content`; the copied files
-// are committed. Never hand-edit src/content/locales/.
+// are committed. Never hand-edit src/content/locales/ or the per-locale sitemaps.
 //   pnpm run locales
 import { copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { landingFile, localeSlugs, pagesOf, read, repoRoot, siteRoot, titleOf } from './lib-locales.mjs';
+import { landingFile, localeSlugs, localesRoot, pagesOf, read, repoRoot, siteRoot, titleOf } from './lib-locales.mjs';
 
 const outRoot = path.join(siteRoot, 'src/content/locales');
 rmSync(outRoot, { recursive: true, force: true });
+
+const SITE = 'https://maturity-models.github.io';
+const escapeXml = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const sitemapXml = (urls) =>
+	[
+		'<?xml version="1.0" encoding="UTF-8"?>',
+		'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+		...urls.map((u) => `  <url><loc>${escapeXml(SITE + encodeURI(u))}</loc></url>`),
+		'</urlset>',
+		''
+	].join('\n');
 
 const tree = {};
 let count = 0;
@@ -22,7 +35,9 @@ for (const slug of slugs) {
 		mkdirSync(path.join(outRoot, slug), { recursive: true });
 		copyFileSync(landing, path.join(outRoot, slug, 'index.md'));
 	}
-	tree[slug] = pagesOf(slug).map((p) => {
+	const pages = pagesOf(slug);
+	writeFileSync(path.join(localesRoot, slug, 'sitemap.xml'), sitemapXml([`/${slug}/`, ...pages.map((p) => `/${slug}/${p.path}/`)]));
+	tree[slug] = pages.map((p) => {
 		const dest = path.join(outRoot, slug, `${p.path}.md`);
 		mkdirSync(path.dirname(dest), { recursive: true });
 		copyFileSync(p.file, dest);

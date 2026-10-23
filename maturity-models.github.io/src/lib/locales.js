@@ -2,7 +2,7 @@
 // source directory under ../locales/ is the lowercase form with "_" replaced by
 // "-" ("en_US" -> "en-us"). To add a locale: add its value here, add
 // ../locales/<slug>/, and run `pnpm run content`. See spec/index.md.
-export const LOCALES = ['cy_GB', 'en_US'];
+export const LOCALES = ['cy_001', 'cy_GB', 'en_001', 'en_GB', 'en_US'];
 
 export const DEFAULT_LOCALE = 'en_US';
 
@@ -31,8 +31,9 @@ export function isRtlSlug(slug) {
 /**
  * The route to send a visitor to, from the browser's language preferences
  * (`navigator.languages`, most preferred first). Used by the "/" page.
- * Per preference: the exact locale ("en-US" -> "en-us"), else any locale of the
- * same language ("en-AU" -> "en-us"). With no match the result is the default
+ * Per preference: the exact locale ("en-US" -> "en-us"), else the language's
+ * world locale ("en-AU" -> "en-001"), else any locale of the same language.
+ * With no match the result is the default
  * locale's route. See spec/index.md.
  * @param {readonly string[]} languages
  * @returns {string} a path such as "/en-us/"
@@ -44,7 +45,7 @@ export function routeForLanguages(languages) {
 		if (!lang) continue;
 		const region = parts.find((p, i) => i > 0 && /^([a-z]{2}|\d{3})$/.test(p));
 		if (region && LOCALE_SLUGS.includes(`${lang}-${region}`)) return `/${lang}-${region}/`;
-		const sameLanguage = LOCALE_SLUGS.find((s) => s.split('-')[0] === lang);
+		const sameLanguage = LOCALE_SLUGS.includes(`${lang}-001`) ? `${lang}-001` : LOCALE_SLUGS.find((s) => s.split('-')[0] === lang);
 		if (sameLanguage) return `/${sameLanguage}/`;
 	}
 	return `/${DEFAULT_SLUG}/`;

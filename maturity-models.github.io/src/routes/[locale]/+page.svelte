@@ -10,6 +10,8 @@
 	const slug = $derived(data.locale);
 	const rtl = $derived(isRtlSlug(slug));
 	const hero = $derived(HERO[slug]);
+	// The "Translations:" sentence lists the language-only (world, *-001) locales.
+	const translations = Object.entries(ENDONYMS).filter(([code]) => code.endsWith('-001'));
 	// location.search exists only in the browser; prerendering shows the contents.
 	let query = $state('');
 	$effect(() => {
@@ -34,7 +36,7 @@
 			<p>{data.landing.hero.text}</p>
 			{#if hero}
 				<p class="hero-translations">
-					{hero.translations}{#each Object.entries(ENDONYMS) as [code, name], i (code)}{i ? ', ' : ''}<a
+					{hero.translations}{#each translations as [code, name], i (code)}{i ? ', ' : ''}<a
 							href="/{code}/"
 							lang={slugToTag(code)}
 							aria-current={code === slug ? 'page' : undefined}>{name}</a
