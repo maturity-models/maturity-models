@@ -22,6 +22,14 @@ export const HERO = {
 		tagline: 'Maturity models to assess people, processes, and technology, with real-world examples.',
 		translations: 'Translations: '
 	},
+	'hi-001': {
+		tagline: 'लोगों, प्रक्रियाओं और प्रौद्योगिकी का आकलन करने के लिए परिपक्वता मॉडल, वास्तविक दुनिया के उदाहरणों के साथ।',
+		translations: 'अनुवाद: '
+	},
+	'hi-in': {
+		tagline: 'लोगों, प्रक्रियाओं और प्रौद्योगिकी का आकलन करने के लिए परिपक्वता मॉडल, वास्तविक दुनिया के उदाहरणों के साथ।',
+		translations: 'अनुवाद: '
+	},
 	'zh-001': {
 		tagline: '用于评估人员、流程和技术的成熟度模型，附有真实案例。',
 		translations: '翻译：'
@@ -39,6 +47,8 @@ export const ENDONYMS = {
 	'en-001': 'English',
 	'en-gb': 'English',
 	'en-us': 'English',
+	'hi-001': 'हिन्दी',
+	'hi-in': 'हिन्दी',
 	'zh-001': '中文',
 	'zh-cn': '中文'
 };
@@ -51,6 +61,8 @@ export const EXAMPLES_ANCHOR = {
 	'en-001': 'maturity-model-examples',
 	'en-gb': 'maturity-model-examples',
 	'en-us': 'maturity-model-examples',
+	'hi-001': 'परिपक्वता-मॉडल-के-उदाहरण',
+	'hi-in': 'परिपक्वता-मॉडल-के-उदाहरण',
 	'zh-001': '成熟度模型示例',
 	'zh-cn': '成熟度模型示例'
 };
