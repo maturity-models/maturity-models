@@ -64,7 +64,7 @@ This is a monorepo.
   `ur-001`, `da-001`. Translate serially, one locale at a time; commit, push,
   publish, and check `https://maturity-models.github.io/<locale>/` renders.
 - Supported locales: `en-us` (source), `en-gb` and `en-001` (British spelling),
-  `cy-gb` and `cy-001` (Welsh), `zh-cn` and `zh-001` (Simplified Chinese), `hi-in` and `hi-001` (Hindi).
+  `cy-gb` and `cy-001` (Welsh), `zh-cn` and `zh-001` (Simplified Chinese), `hi-in` and `hi-001` (Hindi), `ar-001` (Arabic, right-to-left).
 - `maturity-models.github.io/scripts/scaffold-locale.mjs <code> <mapping.tsv>`
   creates a locale's directories, `.locale-peer-id` files and `README.md` symlinks
   from a mapping of `en-us` path to locale path.

@@ -2,6 +2,10 @@
 // Add an entry per locale; the landing page shows the hero only for locales listed here.
 /** @type {Record<string, {tagline: string, translations: string}>} */
 export const HERO = {
+	'ar-001': {
+		tagline: 'نماذج النضج: قياس القدرات وتحسينها خطوة بخطوة',
+		translations: 'الترجمات: '
+	},
 	'cy-001': {
 		tagline: 'Modelau aeddfedrwydd i asesu pobl, prosesau a thechnoleg, gydag enghreifftiau o\'r byd go iawn.',
 		translations: 'Cyfieithiadau: '
@@ -42,6 +46,7 @@ export const HERO = {
 
 /** @type {Record<string, string>} */
 export const ENDONYMS = {
+	'ar-001': 'العربية',
 	'cy-001': 'Cymraeg',
 	'cy-gb': 'Cymraeg',
 	'en-001': 'English',
@@ -56,6 +61,7 @@ export const ENDONYMS = {
 /** Heading id of each locale's examples section on its landing page (the header's "Examples" link). */
 /** @type {Record<string, string>} */
 export const EXAMPLES_ANCHOR = {
+	'ar-001': 'أمثلة-على-نماذج-النضج',
 	'cy-001': 'enghreifftiau-o-fodelau-aeddfedrwydd',
 	'cy-gb': 'enghreifftiau-o-fodelau-aeddfedrwydd',
 	'en-001': 'maturity-model-examples',
