@@ -1,0 +1,225 @@
+{
+  "name": "Maturity Models",
+  "summary": "A maturity model is a business tool used to assess people/culture, processes/structures, and objects/technology. This site is a guide to maturity models and a curated set of real-world examples.",
+  "site": "https://maturity-models.github.io",
+  "repository": "https://github.com/maturity-models/maturity-models",
+  "counts": {
+    "examples": 42,
+    "locales": 1
+  },
+  "examples": [
+    {
+      "title": "Agile Compass for maturity in agile teams",
+      "category": "agile",
+      "url": "https://maturity-models.github.io/en-us/examples/agile/agile-compass-for-maturity-in-agile-teams/"
+    },
+    {
+      "title": "Agile DevOps Maturity Model by Hewlett Packard Enterprise (HPE)",
+      "category": "agile",
+      "url": "https://maturity-models.github.io/en-us/examples/agile/agile-devops-maturity-model-by-hewlett-packard-enterprise-hpe/"
+    },
+    {
+      "title": "Agile Fluency",
+      "category": "agile",
+      "url": "https://maturity-models.github.io/en-us/examples/agile/agile-fluency/"
+    },
+    {
+      "title": "Agile Maturity Model by ThoughtWorks",
+      "category": "agile",
+      "url": "https://maturity-models.github.io/en-us/examples/agile/agile-maturity-model-by-thoughtworks/"
+    },
+    {
+      "title": "Agile Team Maturity Model by Prowareness",
+      "category": "agile",
+      "url": "https://maturity-models.github.io/en-us/examples/agile/agile-team-maturity-model-by-prowareness/"
+    },
+    {
+      "title": "AI Maturity Model for a National Health Service",
+      "category": "ai",
+      "url": "https://maturity-models.github.io/en-us/examples/ai/ai-for-national-health-service/"
+    },
+    {
+      "title": "Bloom's Taxonomy for the Cognitive Domain",
+      "category": "cognition",
+      "url": "https://maturity-models.github.io/en-us/examples/cognition/bloom-taxonomy-of-cognition/"
+    },
+    {
+      "title": "Continuous Delivery Maturity Model by Xebia",
+      "category": "continuous-delivery",
+      "url": "https://maturity-models.github.io/en-us/examples/continuous-delivery/continuous-delivery-maturity-model-by-xebia/"
+    },
+    {
+      "title": "Continuous improvement meetings maturity model",
+      "category": "continuous-improvement",
+      "url": "https://maturity-models.github.io/en-us/examples/continuous-improvement/continuous-improvement-meetings-maturity-model/"
+    },
+    {
+      "title": "Data Center Automation Maturity Model by Xebia",
+      "category": "data-center",
+      "url": "https://maturity-models.github.io/en-us/examples/data-center/data-center-automation-maturity-model-by-xebia/"
+    },
+    {
+      "title": "DevOps by TODO",
+      "category": "devops",
+      "url": "https://maturity-models.github.io/en-us/examples/devops/devops-by-todo/"
+    },
+    {
+      "title": "Gartner's Enterprise Information Management Maturity Model",
+      "category": "eim",
+      "url": "https://maturity-models.github.io/en-us/examples/eim/gartner-eim-maturity-model/"
+    },
+    {
+      "title": "Engineering ladders",
+      "category": "",
+      "url": "https://maturity-models.github.io/en-us/examples/engineering-ladders/"
+    },
+    {
+      "title": "Great Professional Service Firms - by Tom Peters",
+      "category": "excellence",
+      "url": "https://maturity-models.github.io/en-us/examples/excellence/great-professional-service-firms-by-tom-peters/"
+    },
+    {
+      "title": "The Excellent Audit Top 10 by Tom Peters",
+      "category": "excellence",
+      "url": "https://maturity-models.github.io/en-us/examples/excellence/the-excellence-audit-top-10-by-tom-peters/"
+    },
+    {
+      "title": "IAM Program Maturity Model by Gartner",
+      "category": "iam",
+      "url": "https://maturity-models.github.io/en-us/examples/iam/iam-program-maturity-model-by-gartner/"
+    },
+    {
+      "title": "Hype as a scale",
+      "category": "ideas",
+      "url": "https://maturity-models.github.io/en-us/examples/ideas/hype-as-a-scale/"
+    },
+    {
+      "title": "Infrastructure as Code (IaC) maturity model by Joel Parker Henderson",
+      "category": "infrastructure-as-code",
+      "url": "https://maturity-models.github.io/en-us/examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-joel-parker-henderson/"
+    },
+    {
+      "title": "Infrastructure as Code (IaC) maturity model",
+      "category": "infrastructure-as-code",
+      "url": "https://maturity-models.github.io/en-us/examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-stafford/"
+    },
+    {
+      "title": "IT Capability Maturity Framework by the Innovation Value Institute (IVI)",
+      "category": "it",
+      "url": "https://maturity-models.github.io/en-us/examples/it/it-capability-maturity-framework-by-innovation-value-institute/"
+    },
+    {
+      "title": "Technical Leadership Career Ladder by Poss",
+      "category": "it",
+      "url": "https://maturity-models.github.io/en-us/examples/it/technical-leadership-career-ladder-by-poss/"
+    },
+    {
+      "title": "Porfolio, Programme & Project Managment Maturity Model (P3M3) by OGC",
+      "category": "management",
+      "url": "https://maturity-models.github.io/en-us/examples/management/porfolio-programme-project-management-maturity-model-p3m3-by-ogc/"
+    },
+    {
+      "title": "Program and Portfolio Management Maturity Model by Gartner",
+      "category": "management",
+      "url": "https://maturity-models.github.io/en-us/examples/management/program-and-portfolio-management-maturity-model-by-gartner/"
+    },
+    {
+      "title": "Project Portfolio Management Maturity Levels by Priority Systems",
+      "category": "management",
+      "url": "https://maturity-models.github.io/en-us/examples/management/project-portfolio-management-maturity-levels-by-priority-systems/"
+    },
+    {
+      "title": "Kwan’s Hierarchy of Product Needs",
+      "category": "product",
+      "url": "https://maturity-models.github.io/en-us/examples/product/kwans-hierarchy-of-product-needs/"
+    },
+    {
+      "title": "Product Market Fit",
+      "category": "product",
+      "url": "https://maturity-models.github.io/en-us/examples/product/product-market-fit/"
+    },
+    {
+      "title": "Programmer competency matrix",
+      "category": "programming",
+      "url": "https://maturity-models.github.io/en-us/examples/programming/programmer-competentcy-matrix/"
+    },
+    {
+      "title": "PS Maturity Scorecard by SPI Research",
+      "category": "ps",
+      "url": "https://maturity-models.github.io/en-us/examples/ps/ps-maturity-scorecard-by-spi-research/"
+    },
+    {
+      "title": "Lean Six Sigma Maturity Assessment",
+      "category": "six-sigma",
+      "url": "https://maturity-models.github.io/en-us/examples/six-sigma/lean-six-sigma-maturity-model/"
+    },
+    {
+      "title": "Six Sigma Maturity Model",
+      "category": "six-sigma",
+      "url": "https://maturity-models.github.io/en-us/examples/six-sigma/six-sigma-maturity-model/"
+    },
+    {
+      "title": "Dreyfus model of skill acquisition",
+      "category": "skill",
+      "url": "https://maturity-models.github.io/en-us/examples/skill/dreyfus-model-of-skill-acquisition/"
+    },
+    {
+      "title": "Skills maturity model by Prowareness",
+      "category": "skill",
+      "url": "https://maturity-models.github.io/en-us/examples/skill/skills-maturity-model-by-prowareness/"
+    },
+    {
+      "title": "U.K. Government Digital and Data Profession Capability Framework",
+      "category": "skill",
+      "url": "https://maturity-models.github.io/en-us/examples/skill/uk-government-digital-and-data-profession-capability-framework/"
+    },
+    {
+      "title": "US NIH Proficiency Scale",
+      "category": "skill",
+      "url": "https://maturity-models.github.io/en-us/examples/skill/us-nih-proficiency-scale/"
+    },
+    {
+      "title": "Social media maturity model",
+      "category": "social-media",
+      "url": "https://maturity-models.github.io/en-us/examples/social-media/social-media-maturity-model/"
+    },
+    {
+      "title": "Enterprise Architecture Maturity Model based on CMMI CM SEI",
+      "category": "software/enterprise-architecture",
+      "url": "https://maturity-models.github.io/en-us/examples/software/enterprise-architecture/enterprise-architecture-maturity-model-based-on-cmmi-cm-sei/"
+    },
+    {
+      "title": "Enterprise Architecture: TOGAF Maturity Model",
+      "category": "software/enterprise-architecture",
+      "url": "https://maturity-models.github.io/en-us/examples/software/enterprise-architecture/togaf-maturity-model/"
+    },
+    {
+      "title": "OpenSource Maturity Model",
+      "category": "software/open-source",
+      "url": "https://maturity-models.github.io/en-us/examples/software/open-source/opensource-maturity-model/"
+    },
+    {
+      "title": "README Maturity Model",
+      "category": "software-documentation",
+      "url": "https://maturity-models.github.io/en-us/examples/software-documentation/readme-maturity-model/"
+    },
+    {
+      "title": "Team Capability Maturity Model by novumAMI",
+      "category": "team",
+      "url": "https://maturity-models.github.io/en-us/examples/team/team-capability-maturity-model-by-novumavi/"
+    },
+    {
+      "title": "TEAM FOCUS Maturity Model",
+      "category": "team",
+      "url": "https://maturity-models.github.io/en-us/examples/team/team-focus-tech-maturity-model/"
+    },
+    {
+      "title": "Team Performance Maturity Model",
+      "category": "team",
+      "url": "https://maturity-models.github.io/en-us/examples/team/team-performance-maturity-model/"
+    }
+  ],
+  "locales": [
+    "en_US"
+  ]
+}

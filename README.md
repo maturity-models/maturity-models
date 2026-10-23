@@ -179,8 +179,8 @@ There are 6 levels:
 
 ## Related assessment metrics
 
-- [The Excellence Audit Top 10 10 by Tom Peters](examples/the-excellence-audit-top-ten-by-tom-peters/index.md)
-- [Great Professional Service Firms - by Tom Peters](examples/great-professional-service-firms-by-tom-peters/index.md)
+- [The Excellence Audit Top 10 10 by Tom Peters](examples/excellence/the-excellence-audit-top-10-by-tom-peters/index.md)
+- [Great Professional Service Firms - by Tom Peters](examples/excellence/great-professional-service-firms-by-tom-peters/index.md)
 
 ## FAQ
 
