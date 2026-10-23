@@ -49,6 +49,8 @@ const PAGES = [
 	'/cy-gb/',
 	'/en-us/examples/agile/agile-fluency/',
 	'/en-us/examples/team/team-performance-maturity-model/',
+	'/cy-gb/examples/ystwyth/model-aeddfedrwydd-tim-ystwyth-gan-prowareness/',
+	'/cy-gb/examples/deallusrwydd-artiffisial/deallusrwydd-artiffisial-ar-gyfer-gwasanaeth-iechyd-gwladol/',
 	'/en-us/?agile'
 ];
 

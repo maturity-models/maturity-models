@@ -27,7 +27,7 @@ for (const slug of slugs) {
 		mkdirSync(path.dirname(dest), { recursive: true });
 		copyFileSync(p.file, dest);
 		count += 1;
-		return { path: p.path, category: p.category, title: titleOf(read(p.file), path.basename(p.path)) };
+		return { path: p.path, category: p.category, peer: p.peer, title: titleOf(read(p.file), path.basename(p.path)) };
 	});
 }
 

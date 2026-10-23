@@ -41,73 +41,73 @@ Mae gan lefelau modelau aeddfedrwydd ystod o derminoleg mewn diwydiannau gwahano
 
 Croesawn enghreifftiau o fodelau aeddfedrwydd. Os ydych yn gwybod am fodel aeddfedrwydd, rhowch wybod i ni drwy greu mater (issue) a/neu gais tynnu (pull request) ar GitHub.
 
-Mae teitlau'r enghreifftiau yn Saesneg, ac mae'r dolenni'n arwain at y tudalennau Saesneg.
+Mae'r enghreifftiau wedi'u cyfieithu i'r Gymraeg; cedwir enwau brandiau, cwmnïau a gweithiau priod.
 
 Modelau aeddfedrwydd cyffredinol:
 
-- [U.S. N.I.H. Proficiency Scale](examples/skill/us-nih-proficiency-scale/index.md)
-- [Dreyfus model of skill acquisition](examples/skill/dreyfus-model-of-skill-acquisition/index.md)
-- [U.K. Government Digital and Data Profession Capability Framework](examples/skill/uk-government-digital-and-data-profession-capability-framework/)
+- [Graddfa hyfedredd NIH yr Unol Daleithiau](examples/sgiliau/graddfa-hyfedredd-nih-yr-unol-daleithiau/index.md)
+- [Model Dreyfus o gaffael sgiliau](examples/sgiliau/model-dreyfus-o-gaffael-sgiliau/index.md)
+- [Fframwaith Gallu Proffesiwn Digidol a Data Llywodraeth y DU](examples/sgiliau/fframwaith-gallu-proffesiwn-digidol-a-data-llywodraeth-y-du/index.md)
 
 https://ddat-capability-framework.service.gov.uk/
 
 Modelau aeddfedrwydd yn ôl pwnc:
 
 - Ystwyth (Agile)
-  - [Agile Compass for maturity in agile teams](examples/agile/agile-compass-for-maturity-in-agile-teams/index.md)
-  - [Agile Fluency](examples/agile/agile-fluency/index.md)
-  - [Agile DevOps Maturity Model by Hewlett Packard Enterprise (HPE)](examples/agile/agile-devops-maturity-model-by-hewlett-packard-enterprise-hpe/index.md)
-  - [Agile Maturity Model (AMM) by ThoughtWorks (TW)](examples/agile/agile-maturity-model-by-thoughtworks/index.md)
-  - [Agile Team Maturity Model by Prowareness](examples/agile/agile-team-maturity-model-by-prowareness/index.md)
+  - [Cwmpawd Ystwyth ar gyfer aeddfedrwydd mewn timau ystwyth](examples/ystwyth/cwmpawd-ystwyth-ar-gyfer-aeddfedrwydd-mewn-timau-ystwyth/index.md)
+  - [Rhuglder Ystwyth (Agile Fluency)](examples/ystwyth/rhuglder-ystwyth/index.md)
+  - [Model aeddfedrwydd DevOps ystwyth gan Hewlett Packard Enterprise (HPE)](examples/ystwyth/model-aeddfedrwydd-devops-ystwyth-gan-hewlett-packard-enterprise-hpe/index.md)
+  - [Model aeddfedrwydd ystwyth gan ThoughtWorks](examples/ystwyth/model-aeddfedrwydd-ystwyth-gan-thoughtworks/index.md)
+  - [Model aeddfedrwydd tîm ystwyth gan Prowareness](examples/ystwyth/model-aeddfedrwydd-tim-ystwyth-gan-prowareness/index.md)
 - Deallusrwydd Artiffisial
-  - [AI Maturity Model for a National Health Service](examples/ai/ai-for-national-health-service)
+  - [Model aeddfedrwydd AI ar gyfer Gwasanaeth Iechyd Gwladol](examples/deallusrwydd-artiffisial/deallusrwydd-artiffisial-ar-gyfer-gwasanaeth-iechyd-gwladol/index.md)
 - Gallu (Capability)
   - [Capability Maturity Model Integration (CMMI) for Development by Carnegie Mellon Software Engineering Institute (SEI)](http://resources.sei.cmu.edu/asset-files/TechnicalReport/2006-005-001-14771.pdf)
   - [Capability Maturity Model Integration (CMMI) for Acquisition by Carnegie Mellon Software Engineering Institute (SEI)](http://resources.sei.cmu.edu/asset-files/TechnicalReport/2007-005-001-14897.pdf)
 - Gwelliant Parhaus
-  - [Continuous Improvement Meetings Maturity Model](examples/continuous-improvement/continuous-improvement-meetings-maturity-model/index.md)
+  - [Model aeddfedrwydd cyfarfodydd gwelliant parhaus](examples/gwelliant-parhaus/model-aeddfedrwydd-cyfarfodydd-gwelliant-parhaus/index.md)
 - Darparu Parhaus
-  - [Continuous Delivery Maturity Model by Xebia](examples/continuous-delivery/continuous-delivery-maturity-model-by-xebia/index.md)
+  - [Model aeddfedrwydd darparu parhaus gan Xebia](examples/darparu-parhaus/model-aeddfedrwydd-darparu-parhaus-gan-xebia/index.md)
 - Canolfan Ddata
-  - [Data Center Automation Maturity Model by Xebia](examples/data-center/data-center-automation-maturity-model-by-xebia/index.md)
+  - [Model aeddfedrwydd awtomeiddio canolfan ddata gan Xebia](examples/canolfan-ddata/model-aeddfedrwydd-awtomeiddio-canolfan-ddata-gan-xebia/index.md)
 - Pensaernïaeth Menter
-  - [Enterprise Architecture: TOGAF Maturity Model](examples/software/enterprise-architecture/togaf-maturity-model/index.md)
-  - [Enterprise Architecture Maturity Model based on CMMI CM SEI](examples/software/enterprise-architecture/enterprise-architecture-maturity-model-based-on-cmmi-cm-sei/index.md)
+  - [Pensaernïaeth menter: Model aeddfedrwydd TOGAF](examples/meddalwedd/pensaernïaeth-menter/model-aeddfedrwydd-togaf/index.md)
+  - [Model aeddfedrwydd pensaernïaeth menter yn seiliedig ar CMMI CM SEI](examples/meddalwedd/pensaernïaeth-menter/model-aeddfedrwydd-pensaernïaeth-menter-yn-seiliedig-ar-cmmi-cm-sei/index.md)
 - EIM: Rheoli Gwybodaeth Menter
-  - [EIM Maturity Model by Gartner](examples/eim/gartner-eim-maturity-model/index.md)
+  - [Model aeddfedrwydd Rheoli Gwybodaeth Menter gan Gartner](examples/eim/model-aeddfedrwydd-eim-gan-gartner/index.md)
 - Meddalwedd Gwyrdd
   - [Green Software Maturity Matrix](https://maturity-matrix.greensoftware.foundation/)
 - IAM: Rheoli Hunaniaeth a Mynediad
-  - [IAM Program Maturity Model by Gartner](examples/iam/iam-program-maturity-model-by-gartner/index.md)
+  - [Model aeddfedrwydd rhaglen IAM gan Gartner](examples/iam/model-aeddfedrwydd-rhaglen-iam-gan-gartner/index.md)
 - Seilwaith fel Cod (IaC)
-  - [Infrastructure as Code maturity model by Joel Parker Henderson](examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-joel-parker-henderson/index.md)
-  - [Infrastructure as Code maturity model by Stafford](examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-stafford/index.md)
+  - [Model aeddfedrwydd Seilwaith fel Cod (IaC) gan Joel Parker Henderson](examples/seilwaith-fel-cod/model-aeddfedrwydd-seilwaith-fel-cod-gan-joel-parker-henderson/index.md)
+  - [Model aeddfedrwydd Seilwaith fel Cod (IaC)](examples/seilwaith-fel-cod/model-aeddfedrwydd-seilwaith-fel-cod-gan-stafford/index.md)
 - TG: Technoleg Gwybodaeth
-  - [IT Capability Maturity Framework by the Innovation Value Institute (IVI)](examples/it/it-capability-maturity-framework-by-innovation-value-institute/index.md)
-  - [Technical Leadership Career Ladder by Poss](examples/it/technical-leadership-career-ladder-by-poss/)
+  - [Fframwaith Aeddfedrwydd Galluogrwydd TG gan y Sefydliad Gwerth Arloesi (IVI)](examples/tg/fframwaith-aeddfedrwydd-galluogrwydd-tg-gan-y-sefydliad-gwerth-arloesi/index.md)
+  - [Ysgol gyrfa arweinyddiaeth dechnegol gan Poss](examples/tg/ysgol-gyrfa-arweinyddiaeth-dechnegol-gan-poss/index.md)
 - Rheolaeth
-  - [Program and Portfolio Management Maturity Model by Gartner](examples/management/program-and-portfolio-management-maturity-model-by-gartner/index.md)
-  - [Project Portfolio Management Maturity Levels by Priority Systems](examples/management/project-portfolio-management-maturity-levels-by-priority-systems/index.md)
-  - [Portfolio, Programme & Project Management Maturity Model (P3M3) by OGC](examples/management/porfolio-programme-project-management-maturity-model-p3m3-by-ogc/index.md)
+  - [Model aeddfedrwydd rheoli rhaglenni a phortffolio gan Gartner](examples/rheolaeth/model-aeddfedrwydd-rheoli-rhaglenni-a-phortffolio-gan-gartner/index.md)
+  - [Lefelau aeddfedrwydd rheoli portffolio prosiectau gan Priority Systems](examples/rheolaeth/lefelau-aeddfedrwydd-rheoli-portffolio-prosiectau-gan-priority-systems/index.md)
+  - [Model Aeddfedrwydd Rheoli Portffolio, Rhaglenni a Phrosiectau (P3M3) gan OGC](examples/rheolaeth/model-aeddfedrwydd-rheoli-portffolio-rhaglen-prosiect-p3m3-gan-ogc/index.md)
 - Cod Agored
-  - [OpenSource Maturity Model](examples/software/open-source/opensource-maturity-model/index.md)
+  - [Model Aeddfedrwydd Cod Agored](examples/meddalwedd/cod-agored/model-aeddfedrwydd-cod-agored/index.md)
 - Cynnyrch
-  - [Kwan’s Hierarchy of Product Needs](examples/product/kwans-hierarchy-of-product-needs/index.md)
+  - [Hierarchaeth Anghenion Cynnyrch Kwan](examples/cynnyrch/hierarchaeth-anghenion-cynnyrch-kwan/index.md)
 - PS: Gwasanaethau Proffesiynol
-  - [PS maturity scorecard by SPI Research](examples/ps/ps-maturity-scorecard-by-spi-research/index.md)
+  - [Cerdyn sgorio aeddfedrwydd PS gan SPI Research](examples/gwasanaethau-proffesiynol/cerdyn-sgorio-aeddfedrwydd-ps-gan-spi-research/index.md)
 - Sgiliau
-  - [Programmer competency matrix](examples/programming/programmer-competentcy-matrix/index.md)
-  - [Skills maturity model by Prowareness](examples/skill/skills-maturity-model-by-prowareness/index.md)
+  - [Matrics cymhwysedd rhaglennwr](examples/rhaglennu/matrics-cymhwysedd-rhaglennwr/index.md)
+  - [Model aeddfedrwydd sgiliau gan Prowareness](examples/sgiliau/model-aeddfedrwydd-sgiliau-gan-prowareness/index.md)
 - Six Sigma
-  - [Lean Six Sigma Maturity Model](examples/six-sigma/lean-six-sigma-maturity-model/index.md)
-  - [The Six Sigma Maturity Model™](examples/six-sigma/six-sigma-maturity-model/index.md)
+  - [Asesiad aeddfedrwydd Lean Six Sigma](examples/six-sigma/model-aeddfedrwydd-lean-six-sigma/index.md)
+  - [Model aeddfedrwydd Six Sigma](examples/six-sigma/model-aeddfedrwydd-six-sigma/index.md)
 - Cyfryngau Cymdeithasol
-  - [Social Media Maturity Model](examples/social-media/social-media-maturity-model/index.md)
+  - [Model aeddfedrwydd cyfryngau cymdeithasol](examples/cyfryngau-cymdeithasol/model-aeddfedrwydd-cyfryngau-cymdeithasol/index.md)
 - Dogfennaeth Meddalwedd
-  - [README Maturity Model](examples/software-documentation/readme-maturity-model/index.md)
+  - [Model aeddfedrwydd README](examples/dogfennaeth-meddalwedd/model-aeddfedrwydd-readme/index.md)
 - Tîm
-  - [Team Capability Maturity Model by novumAVI](examples/team/team-capability-maturity-model-by-novumavi/index.md)
-  - [Team Performance Maturity Model](examples/team/team-performance-maturity-model/index.md)
+  - [Model Aeddfedrwydd Gallu Tîm gan novumAMI](examples/tim/model-aeddfedrwydd-gallu-tim-gan-novumavi/index.md)
+  - [Model aeddfedrwydd perfformiad tîm](examples/tim/model-aeddfedrwydd-perfformiad-tim/index.md)
 - Gwerthwyr
   - [Apache Project Maturity Model](https://community.apache.org/apache-way/apache-project-maturity-model.html)
 
@@ -164,8 +164,8 @@ Mae 6 lefel:
 
 ## Metrigau asesu cysylltiedig
 
-- [The Excellence Audit Top 10 10 by Tom Peters](examples/excellence/the-excellence-audit-top-10-by-tom-peters/index.md)
-- [Great Professional Service Firms - by Tom Peters](examples/excellence/great-professional-service-firms-by-tom-peters/index.md)
+- [Archwiliad Rhagoriaeth: y 10 Uchaf gan Tom Peters](examples/rhagoriaeth/archwiliad-rhagoriaeth-10-uchaf-gan-tom-peters/index.md)
+- [Cwmnïau Gwasanaeth Proffesiynol Gwych - gan Tom Peters](examples/rhagoriaeth/cwmnïau-gwasanaeth-proffesiynol-gwych-gan-tom-peters/index.md)
 
 ## Cwestiynau cyffredin
 

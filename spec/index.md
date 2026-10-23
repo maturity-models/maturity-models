@@ -38,15 +38,20 @@ This is a monorepo.
   is not a site locale.
 - A locale need not translate the examples. A link in its landing page to an
   example it lacks resolves to the `en-us` page.
-- A locale's pages are tracked by `.locale-peer-id`, a 32-character lowercase
-  hexadecimal id plus newline, identical across locales for the same topic.
-  `README.md` beside an `index.md` is a symlink to it.
+- Every directory under a locale (`examples/`, each category, each page) has a
+  `.locale-peer-id`: a 32-character lowercase hexadecimal id plus a newline (one
+  line only), identical across locales for the same topic. `README.md` beside an
+  `index.md` is a symlink to it.
+- Directory names are translated per locale, in the locale's language and script
+  (`cy-gb`: `ystwyth/rhuglder-ystwyth`), so paths differ between locales. The
+  language picker therefore finds the same page in another locale by
+  `.locale-peer-id`, not by path, and falls back to that locale's landing page.
 - Adding a locale to the site: add `ll_RR` to `LOCALES` in
   `maturity-models.github.io/src/lib/locales.js`, add its entries to
   `src/lib/data/hero.js` (`HERO`, `ENDONYMS`, `EXAMPLES_ANCHOR`: the heading id of
   its examples section), create `locales/<code>/`, run `pnpm run content`.
-- Supported locales: `en-us` (source), `cy-gb` (Welsh landing page; examples link to
-  `en-us`).
+- Supported locales: `en-us` (source), `cy-gb` (Welsh: landing page and all 42
+  examples, translated).
 - `locales/cy-gb/locales-for-global-sharing-with-svelte/` is a translated note, not
   site content.
 

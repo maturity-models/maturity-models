@@ -56,7 +56,7 @@ export const landingFile = (slug) => {
 	return slug === SOURCE && existsSync(readme) ? readme : null;
 };
 
-/** Every page of a locale: { path: "examples/<category>/<name>", category, file }, sorted. */
+/** Every page of a locale: { path: "examples/<category>/<name>", category, file, peer }, sorted. `peer` is the .locale-peer-id shared with the same page in other locales. */
 export function pagesOf(slug) {
 	const base = path.join(localesRoot, slug, SECTION);
 	const out = [];
@@ -67,7 +67,9 @@ export function pagesOf(slug) {
 			const sub = path.join(dir, e.name);
 			if (existsSync(path.join(sub, 'index.md'))) {
 				const rel = path.relative(base, sub).split(path.sep);
-				out.push({ path: `${SECTION}/${rel.join('/')}`, category: rel.slice(0, -1).join('/'), file: path.join(sub, 'index.md') });
+				const idFile = path.join(sub, '.locale-peer-id');
+				const peer = existsSync(idFile) ? readFileSync(idFile, 'utf8').trim() : '';
+				out.push({ path: `${SECTION}/${rel.join('/')}`, category: rel.slice(0, -1).join('/'), file: path.join(sub, 'index.md'), peer });
 			}
 			walk(sub);
 		}

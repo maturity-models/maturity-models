@@ -1,6 +1,7 @@
 // Where the language picker goes when a locale is chosen: the same page in the
-// new locale when it exists there (same path below the locale), otherwise the
-// locale's landing page.
+// new locale when it exists there, otherwise the locale's landing page. "The same
+// page" is the page with the same .locale-peer-id, because directory names are
+// translated per locale.
 import localePages from './locale-pages.json';
 import { localeToSlug, LOCALE_SLUGS } from './locales.js';
 
@@ -23,6 +24,8 @@ export async function pathForLocale(pathname, toValue) {
 	const parts = decode(pathname).split('/').filter(Boolean);
 	if (parts.length < 2 || !LOCALE_SLUGS.includes(parts[0])) return `/${toSlug}/`;
 	const rest = parts.slice(1).join('/');
-	const pages = /** @type {Record<string, {path: string}[]>} */ (localePages)[toSlug] ?? [];
-	return pages.some((p) => p.path === rest) ? `/${toSlug}/${rest}/` : `/${toSlug}/`;
+	const all = /** @type {Record<string, {path: string, peer?: string}[]>} */ (localePages);
+	const peer = (all[parts[0]] ?? []).find((p) => p.path === rest)?.peer;
+	const target = peer ? (all[toSlug] ?? []).find((p) => p.peer === peer) : undefined;
+	return target ? `/${toSlug}/${target.path}/` : `/${toSlug}/`;
 }
